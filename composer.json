@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "php": ">=7.4.0"
+        "php": ">=7.4.0",
+        "filp/whoops": "~2.1"
     },
     "autoload": {
         "psr-4": {
