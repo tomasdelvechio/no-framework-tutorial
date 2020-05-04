@@ -1,0 +1,21 @@
+{
+    "name": "tomas-delvechio/no-framework-tutorial",
+    "description": "Best practices for PHP projects",
+    "keywords": ["php", "apps"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomas Delvechio",
+            "email": "tdelvechio@unlu.edu.ar",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src/"
+        }
+    }
+}
